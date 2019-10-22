@@ -41,18 +41,14 @@ body main {
     align-items: center;
 }
 
-[data-icon="internet-explorer"] {
-    width: 150px;
+.icon {
+    width: 300px;
     margin-top: 5vh;
     -webkit-animation: pulse_5221 10s linear infinite;
     animation: pulse_5221 10s linear infinite;
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-}
-
-[data-icon="internet-explorer"] path {
-    fill: var(--ie-blue);
 }
 
 a:link, a:active, a:visited {
